@@ -35,7 +35,8 @@ public class StudentServiceImpl implements StudentService {
     @Override
     public boolean uploadFile(MultipartFile file) {
         try {
-            File newFile = new File(Constant.FOLDER_UPLOAD + file.getOriginalFilename());
+            File newFile = new File(Constant.FOLDER_UPLOAD +
+                    file.getOriginalFilename());
             FileOutputStream fos = new FileOutputStream(newFile);
             fos.write(file.getBytes());
             fos.close();

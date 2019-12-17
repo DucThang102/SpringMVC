@@ -32,6 +32,13 @@ public class StudentController {
         return "detail";
     }
 
+//    @RequestMapping(value = "/detail")
+//    public String findByIdv(@RequestParam("id") String id, Model model) {
+//        StudentDTO data = studentService.findById(id);
+//        model.addAttribute("data", data);
+//        return "detail";
+//    }
+
     @RequestMapping(value = "/add", method = RequestMethod.GET)
     public String saveInit(Model model) {
         model.addAttribute("student", new StudentDTO());

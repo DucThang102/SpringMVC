@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SpringMVC:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eba36771-cd65-438c-a712-4ac38ac384ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/thangpd/dao/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thangpd/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thangpd/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CarManagement-SpringMVC-RestAPI/src/main/java/com/itsol/webservice/carmanagement/dao/CarDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CarManagement-SpringMVC-RestAPI/src/main/java/com/itsol/webservice/carmanagement/dao/CarDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thangnm/controller/HelloWorldController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thangnm/dao/StudentInformationDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thangnm/dao/StudentInformationDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thangpd/dao/StudentDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thangnm/dto/TStudentInformationDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thangpd/dto/StudentDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thangnm/entity/TStudentInformation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thangnm/service/StudentInformationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thangnm/utils/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thangpd/utils/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thangnm/webconfig/WebInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thangpd/webconfig/WebInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thangpd/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thangpd/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thangpd/service/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thangpd/service/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thangpd/webconfig/SpringWebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thangpd/webconfig/SpringWebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hello.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/init.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/language.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/save.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/upload.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/upload.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/viewFile.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/admin/admin-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/admin/admin.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/admin/admin.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/admin/admin.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/admin/admin.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/admin/admin.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/admin/component/header/header.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/admin/component/header/header.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/admin/component/header/header.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/admin/component/header/header.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/admin/component/left-navigation/left-navigation.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/admin/component/left-navigation/left-navigation.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/admin/component/left-navigation/left-navigation.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/admin/component/left-navigation/left-navigation.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/admin/management/category-management/category-management.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/admin/management/category-management/category-management.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/admin/management/category-management/category-management.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/admin/management/category-management/category-management.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/admin/management/user-management/user-management.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/admin/management/user-management/user-management.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/admin/management/user-management/user-management.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/admin/management/user-management/user-management.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/admin/page404-admin/page404-admin.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/admin/page404-admin/page404-admin.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/admin/page404-admin/page404-admin.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/admin/page404-admin/page404-admin.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/enduser/homepage/homepage.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/enduser/homepage/homepage.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/enduser/homepage/homepage.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/enduser/homepage/homepage.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/entity/category.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/page-not-found/page-not-found.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/page-not-found/page-not-found.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/page-not-found/page-not-found.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/page-not-found/page-not-found.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/service/category.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/app/service/category.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/css/font-face.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/css/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-100.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-100.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-100.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-100.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-100.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-100italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-100italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-100italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-100italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-100italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-200.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-200.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-200.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-200.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-200.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-200italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-200italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-200italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-200italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-200italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-300.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-300.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-300.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-300.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-300.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-300italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-300italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-300italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-300italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-300italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-500.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-500.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-500.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-500.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-500.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-500italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-500italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-500italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-500italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-500italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-600.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-600.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-600.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-600.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-600.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-600italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-600italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-600italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-600italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-600italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-700.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-700.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-700.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-700.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-700.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-700italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-700italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-700italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-700italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-700italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-800.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-800.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-800.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-800.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-800.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-800italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-800italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-800italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-800italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-800italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-900italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-900italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-900italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-900italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-900italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/fonts/poppins/poppins-v5-latin-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/images/bg-title-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/images/bg-title-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/images/icon/Untitled-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/images/icon/avatar-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/images/icon/avatar-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/images/icon/avatar-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/images/icon/avatar-04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/images/icon/avatar-05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/images/icon/avatar-06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/images/icon/avatar-big-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/images/icon/logo-blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/images/icon/logo-mini.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/images/icon/logo-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/images/icon/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/animsition/animsition.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/animsition/animsition.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/bootstrap-4.1/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/bootstrap-4.1/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/bootstrap-4.1/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/bootstrap-progressbar/bootstrap-progressbar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/chartjs/Chart.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/circle-progress/circle-progress.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/circle-progress/circle-progress.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/countdown/countdowntime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/countdown/jquery.countdown.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/countdown/moment-timezone-with-data.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/countdown/moment-timezone.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/countdown/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/counter-up/jquery.counterup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/counter-up/jquery.waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/counter-up/waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/css-hamburgers/hamburgers.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/css-hamburgers/hamburgers.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/font-awesome-4.7/HELP-US-OUT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/font-awesome-4.7/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/font-awesome-4.7/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/font-awesome-4.7/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/font-awesome-4.7/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/font-awesome-4.7/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/font-awesome-4.7/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/font-awesome-4.7/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/font-awesome-4.7/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/font-awesome-5/css/fontawesome-all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/font-awesome-5/webfonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/font-awesome-5/webfonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/font-awesome-5/webfonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/font-awesome-5/webfonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/font-awesome-5/webfonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/font-awesome-5/webfonts/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/font-awesome-5/webfonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/font-awesome-5/webfonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/font-awesome-5/webfonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/font-awesome-5/webfonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/font-awesome-5/webfonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/font-awesome-5/webfonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/font-awesome-5/webfonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/font-awesome-5/webfonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/font-awesome-5/webfonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/jquery-3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/lightbox2/dist/css/lightbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/lightbox2/dist/images/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/lightbox2/dist/images/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/lightbox2/dist/images/next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/lightbox2/dist/images/prev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/lightbox2/dist/js/lightbox-plus-jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/lightbox2/dist/js/lightbox-plus-jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/lightbox2/dist/js/lightbox-plus-jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/lightbox2/dist/js/lightbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/lightbox2/dist/js/lightbox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/lightbox2/dist/js/lightbox.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/lightbox2/src/css/lightbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/lightbox2/src/images/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/lightbox2/src/images/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/lightbox2/src/images/next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/lightbox2/src/images/prev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/lightbox2/src/js/lightbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/mdi-font/css/material-design-iconic-font.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/mdi-font/css/material-design-iconic-font.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/mdi-font/fonts/Material-Design-Iconic-Font.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/mdi-font/fonts/Material-Design-Iconic-Font.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/mdi-font/fonts/Material-Design-Iconic-Font.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/mdi-font/fonts/Material-Design-Iconic-Font.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/mdi-font/fonts/Material-Design-Iconic-Font.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/perfect-scrollbar/perfect-scrollbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/perfect-scrollbar/perfect-scrollbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/perfect-scrollbar/perfect-scrollbar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/progressbar/progressbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/progressbar/progressbar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/select2/select2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/select2/select2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/slick/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/slick/config.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/slick/fonts/slick.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/slick/fonts/slick.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/slick/fonts/slick.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/slick/fonts/slick.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/slick/slick-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/slick/slick-theme.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/slick/slick-theme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/slick/slick.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/slick/slick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/slick/slick.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/slick/slick.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/slick/slick.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/smk-accordion/accordion.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/smk-accordion/accordion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/smk-accordion/accordion.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/sweetalert/sweetalert.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/vector-map/jquery.vmap.brazil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/vector-map/jquery.vmap.europe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/vector-map/jquery.vmap.france.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/vector-map/jquery.vmap.germany.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/vector-map/jquery.vmap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/vector-map/jquery.vmap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/vector-map/jquery.vmap.russia.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/vector-map/jquery.vmap.sampledata.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/vector-map/jquery.vmap.usa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/vector-map/jquery.vmap.world.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/vector-map/jqvmap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/wow/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/assets/vendor/wow/wow.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/CategoryManager/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/WebMedicne/src/app/admin/admin-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frontend/Angularjs/WebMedicne/src/app/admin/admin-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/WebMedicne/src/app/admin/admin.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frontend/Angularjs/WebMedicne/src/app/admin/admin.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/WebMedicne/src/app/admin/component/header/header.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frontend/Angularjs/WebMedicne/src/app/admin/component/header/header.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/WebMedicne/src/app/admin/component/left-navigation/left-navigation.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frontend/Angularjs/WebMedicne/src/app/admin/component/left-navigation/left-navigation.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/WebMedicne/src/app/admin/management/category-management/category-management.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frontend/Angularjs/WebMedicne/src/app/admin/management/category-management/category-management.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/WebMedicne/src/app/admin/management/category-management/category-management.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frontend/Angularjs/WebMedicne/src/app/admin/management/category-management/category-management.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/WebMedicne/src/app/admin/management/category-management/category-management.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frontend/Angularjs/WebMedicne/src/app/admin/management/category-management/category-management.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/WebMedicne/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frontend/Angularjs/WebMedicne/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/WebMedicne/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frontend/Angularjs/WebMedicne/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/WebMedicne/src/app/service/category.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frontend/Angularjs/WebMedicne/src/app/service/admin/category/category.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/Angularjs/WebMedicne/src/app/service/category.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frontend/Angularjs/WebMedicne/src/app/service/admin/category/category.service.ts" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="springmvc@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="springmvc@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="springmvc@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="springmvc: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1RQY9G3hwUjbXDOwaWD9mwVe1jW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Rikkeisoft/internjavarikkeisoft/Back-end/webServiceShop" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.26" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.26" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8088/SpringMVC/student" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="SpringMVC:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/SpringMVC" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SpringMVC_3" />
+        <option name="HTTP_PORT" value="8088" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51079" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SpringMVC:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@49de314a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eba36771-cd65-438c-a712-4ac38ac384ab" name="Default Changelist" comment="" />
+      <created>1569600633675</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569600633675</updated>
+      <workItem from="1569600706279" duration="2449000" />
+      <workItem from="1569826739628" duration="1673000" />
+      <workItem from="1569831250137" duration="1616000" />
+      <workItem from="1570119086432" duration="331000" />
+      <workItem from="1570172793332" duration="6895000" />
+      <workItem from="1570529593851" duration="1617000" />
+      <workItem from="1570545334663" duration="2385000" />
+      <workItem from="1576488545519" duration="542000" />
+      <workItem from="1576492716638" duration="393000" />
+      <workItem from="1576493149906" duration="516000" />
+      <workItem from="1576555046376" duration="10785000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
